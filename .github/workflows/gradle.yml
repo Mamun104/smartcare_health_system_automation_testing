@@ -16,5 +16,4 @@ jobs:
    - uses: actions/checkout@v4
 
    - name: Build with Gradle Wrapper
-     run: |
-       gradle clean test
+     run:  gradle clean test
